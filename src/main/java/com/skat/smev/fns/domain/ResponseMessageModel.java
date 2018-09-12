@@ -5,7 +5,6 @@ import java.util.List;
 public class ResponseMessageModel extends BaseMessageModel {
 
 	private String requestId;
-	private String fnsRequestId;
 	private String innfl;
 	private List<String> attachments;
 
@@ -15,14 +14,6 @@ public class ResponseMessageModel extends BaseMessageModel {
 
 	public void setRequestId(String requestId) {
 		this.requestId = requestId;
-	}
-
-	public String getFnsRequestId() {
-		return fnsRequestId;
-	}
-
-	public void setFnsRequestId(String fnsRequestId) {
-		this.fnsRequestId = fnsRequestId;
 	}
 
 	public String getInnFl() {
@@ -44,7 +35,6 @@ public class ResponseMessageModel extends BaseMessageModel {
 		return "ResponseMessageModel{" +
 				"messageId='" + messageId + '\'' +
 				", requestId='" + requestId + '\'' +
-				", fnsRequestId='" + fnsRequestId + '\'' +
 				", innfl='" + innfl + '\'' +
 				'}';
 	}

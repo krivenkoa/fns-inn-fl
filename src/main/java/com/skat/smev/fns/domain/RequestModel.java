@@ -20,8 +20,9 @@ public class RequestModel {
 	private String nameFl;
 	private String patronymicFl;
 	private String kodVidDoc;
-	private String orgVidDoc;
-	private String dateVidDoc;
+	private String kodVydDoc;
+	private String vydDoc;
+	private String dateDoc;
 	private String docSeriaNum;
 
 
@@ -44,8 +45,9 @@ public class RequestModel {
 	public String getNameFl() { return nameFl; }
 	public String getPatronymicFl() { return patronymicFl; }
 	public String getKodVidDoc() { return kodVidDoc; }
-	public String getOrgVidDoc() { return orgVidDoc; }
-	public String getDateVidDoc() { return dateVidDoc; }
+	public String getKodVydDoc() { return kodVydDoc; }
+	public String getVydDoc() { return vydDoc; }
+	public String getDateDoc() { return dateDoc; }
 	public String getDocSeriaNum() { return docSeriaNum; }
 
 
