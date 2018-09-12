@@ -1,0 +1,17 @@
+{
+	"requestId" : "0",
+	"fnsRequestId" : "1",
+	"orgnUl" : "000000000000",
+	"innUl" : "00000000000",
+	"orgName" : "Какая-то организация",
+	"dateBirthFl" : "1987-04-01",
+	"placeBirth" : "ЧИАССР",
+	"surnameFl" : "Кривенко",
+	"nameFl" : "Саша",
+	"patronymicFl" : "А",
+	"kodVidDoc" : "20",
+	"kodVydDoc" : "10",
+	"vydDoc" : "ОВД Лабинск",
+	"dateDoc" : "2007-04-03",
+	"docSeriaNum" : "0000 888888"
+}
